@@ -1,0 +1,973 @@
+export const data = {
+  name: "OSINT Framework",
+  children: [
+    {
+      name: "Personal Info",
+      children: [
+        {
+          name: "Username",
+          children: [
+            { name: "NameChk", link: "https://namechk.com/" },
+            { name: "WhatsMyName", link: "https://whatsmyname.app/" },
+            { name: "UserSherlock", link: "http://usersherlock.com/" }
+          ]
+        },
+        {
+          name: "Email Address",
+          children: [
+            { name: "Hunter.io", link: "https://hunter.io/" },
+            { name: "Email Format", link: "https://email-format.com/" },
+            { name: "Have I Been Pwned", link: "https://haveibeenpwned.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Social Networks",
+      children: [
+        {
+          name: "Facebook",
+          children: [
+            { name: "Graph Search", description: "Advanced Facebook search techniques" },
+            { name: "Intelligence X", link: "https://intelx.io/" }
+          ]
+        },
+        {
+          name: "Twitter",
+          children: [
+            { name: "Advanced Search", link: "https://twitter.com/search-advanced" },
+            { name: "Tweetbeaver", link: "https://tweetbeaver.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Domain Info",
+      children: [
+        {
+          name: "WHOIS",
+          children: [
+            { name: "ICANN Lookup", link: "https://lookup.icann.org/" },
+            { name: "DomainTools", link: "https://whois.domaintools.com/" }
+          ]
+        },
+        {
+          name: "DNS",
+          children: [
+            { name: "SecurityTrails", link: "https://securitytrails.com/" },
+            { name: "DNSDumpster", link: "https://dnsdumpster.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "News and Media",
+      children: [
+        {
+          name: "News Aggregators and Discovery Tools",
+          children: [
+            { name: "NewsLookup", description: "News aggregator.", link: "https://www.newslookup.com/" },
+            { name: "Newspaper Map", description: "Map-based newspaper discovery tool.", link: "https://newspapermap.com/" },
+            { name: "OnlineNewspapers", description: "Directory of online newspapers.", link: "http://www.onlinenewspapers.com/" },
+            { name: "Paperboy", description: "News aggregator.", link: "https://www.thepaperboy.com/" },
+            { name: "Silobreaker", description: "News aggregation and analysis tool.", link: "https://www.silobreaker.com/" },
+            { name: "Topix", description: "Local news aggregator.", link: "https://www.topix.com/" },
+            { name: "WorldNews", description: "Global news aggregator.", link: "https://worldnews.com/" },
+            { name: "Yahoo News", description: "News aggregator.", link: "https://news.yahoo.com/" }
+          ]
+        },
+        {
+          name: "Historical Archives",
+          children: [
+            { name: "Newspapers.com", description: "Historical newspaper archive.", link: "https://www.newspapers.com/" },
+            { name: "Wayback Machine", description: "Internet archive of web pages.", link: "https://archive.org/web/" },
+            { name: "Google News Archive", description: "Archived news articles.", link: "https://news.google.com/archivesearch" },
+            { name: "British Newspaper Archive", description: "Digitized UK newspapers.", link: "https://www.britishnewspaperarchive.co.uk/" },
+            { name: "Chronicling America", description: "US historical newspapers.", link: "https://chroniclingamerica.loc.gov/" }
+          ]
+        },
+        {
+          name: "Press Release Services",
+          children: [
+            { name: "PR Newswire", description: "Press release distribution service.", link: "https://www.prnewswire.com/" },
+            { name: "BusinessWire", description: "Press release distribution platform.", link: "https://www.businesswire.com/" },
+            { name: "GlobeNewswire", description: "Global press release service.", link: "https://www.globenewswire.com/" },
+            { name: "Marketwired", description: "Press release distribution network.", link: "https://www.marketwired.com/" },
+            { name: "Accesswire", description: "Real-time news distribution.", link: "https://www.accesswire.com/" }
+          ]
+        },
+        {
+          name: "Global News Agencies",
+          children: [
+            { name: "Reuters", description: "Global news agency.", link: "https://www.reuters.com/" },
+            { name: "Associated Press", description: "International news agency.", link: "https://www.ap.org/" },
+            { name: "Agence France-Presse", description: "French global news agency.", link: "https://www.afp.com/" },
+            { name: "Xinhua News Agency", description: "Chinese state-run news agency.", link: "http://www.xinhuanet.com/english/" },
+            { name: "TASS", description: "Russian state news agency.", link: "https://tass.com/" }
+          ]
+        },
+        {
+          name: "Local and Regional News",
+          children: [
+            { name: "Patch", description: "Local news for communities in the US.", link: "https://www.patch.com/" },
+            { name: "Nextdoor", description: "Neighborhood-based news and updates.", link: "https://nextdoor.com/" },
+            { name: "LocalWiki", description: "Crowdsourced local information.", link: "https://localwiki.org/" },
+            { name: "City-Data", description: "Local statistics and news.", link: "https://www.city-data.com/" },
+            { name: "Local News Websites", description: "Searchable directory of local news sites.", link: "https://www.localnewswebsites.com/" }
+          ]
+        },
+        {
+          name: "Specialized News Platforms",
+          children: [
+            { name: "TechCrunch", description: "Technology and startup news.", link: "https://techcrunch.com/" },
+            { name: "Wired", description: "Technology and culture news.", link: "https://www.wired.com/" },
+            { name: "ScienceDaily", description: "Science and research news.", link: "https://www.sciencedaily.com/" },
+            { name: "Defense One", description: "Defense and national security news.", link: "https://www.defenseone.com/" },
+            { name: "ProPublica", description: "Investigative journalism.", link: "https://www.propublica.org/" },
+            { name: "The Intercept", description: "Investigative reporting.", link: "https://theintercept.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Data and Statistics",
+      children: [
+        {
+          name: "Data Sources",
+          children: [
+            { name: "AGOA Data Center", description: "Data on African trade and economics.", link: "https://agoa.info/" },
+            { name: "AidData", description: "Data on global aid and development.", link: "https://www.aiddata.org/" },
+            { name: "AWS Public Datasets", description: "Public datasets hosted on AWS.", link: "https://aws.amazon.com/public-datasets/" },
+            { name: "Bank for International Settlements Statistics", description: "Global financial statistics.", link: "https://www.bis.org/statistics/" },
+            { name: "UNESCO Institute for Statistics", description: "Global education and culture statistics.", link: "http://uis.unesco.org/" },
+            { name: "UNIDO Statistical Databases", description: "Industrial development statistics.", link: "https://stat.unido.org/" },
+            { name: "UNStats Social Indicators", description: "Global social indicators.", link: "https://unstats.un.org/unsd/demographic-social/social/" },
+            { name: "Upsala Conflict Data Program", description: "Data on global conflicts.", link: "https://ucdp.uu.se/" },
+            { name: "US Data and Statistics", description: "US government data.", link: "https://www.data.gov/" },
+            { name: "Vizala", description: "Data visualization tool.", link: "https://vizala.com/" },
+            { name: "WHO Data", description: "Global health data.", link: "https://www.who.int/data" },
+            { name: "World Bank Data", description: "Global development data.", link: "https://data.worldbank.org/" },
+            { name: "WTO Statistics", description: "Global trade statistics.", link: "https://www.wto.org/english/res_e/statis_e/statis_e.htm" },
+            { name: "Zanran", description: "Search engine for data and statistics.", link: "https://zanran.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Web Monitoring",
+      children: [
+        {
+          name: "Web Monitoring Tools",
+          children: [
+            { name: "Alltop", description: "News aggregator.", link: "https://alltop.com/" },
+            { name: "Awasu", description: "RSS feed reader.", link: "https://www.awasu.com/" },
+            { name: "Bridge.Leslibres", description: "Web monitoring tool.", link: "https://bridge.leslibres.org/" },
+            { name: "Bridge.Suumitsu", description: "Web monitoring tool.", link: "https://bridge.suumitsu.eu/" },
+            { name: "ChangeDetection.io", description: "Website change detection tool.", link: "https://changedetection.io/" },
+            { name: "ChangeDetect", description: "Website change detection tool.", link: "https://www.changedetect.com/" },
+            { name: "Deltafeed", description: "RSS feed monitoring tool.", link: "https://deltafeed.com/" },
+            { name: "DiggReader", description: "RSS feed reader.", link: "https://digg.com/reader" },
+            { name: "FeedBooster", description: "RSS feed management tool.", link: "https://feedbooster.com/" },
+            { name: "Feederator", description: "RSS feed reader.", link: "https://feederator.com/" },
+            { name: "Feed Exileed", description: "RSS feed reader.", link: "https://feed.exileed.com/" },
+            { name: "Feed Filter Maker", description: "RSS feed filtering tool.", link: "https://feedfiltermaker.com/" },
+            { name: "Feedly", description: "RSS feed reader.", link: "https://feedly.com/" },
+            { name: "FeedReader", description: "RSS feed reader.", link: "https://www.feedreader.com/" },
+            { name: "FetchRSS", description: "RSS feed generator.", link: "https://fetchrss.com/" },
+            { name: "Flipboard", description: "News aggregator.", link: "https://flipboard.com/" },
+            { name: "FollowThatPage", description: "Website change detection tool.", link: "https://www.followthatpage.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Business Directories",
+      children: [
+        {
+          name: "Business Search",
+          children: [
+            { name: "Kompass", description: "Business directory.", link: "https://www.kompass.com/" },
+            { name: "Mugshots", description: "Arrest records directory.", link: "https://mugshots.com/" },
+            { name: "OpenSanctions", description: "Sanctions and watchlist data.", link: "https://www.opensanctions.org/" },
+            { name: "PeekYou", description: "People search engine.", link: "https://www.peekyou.com/" },
+            { name: "Reunion", description: "People search engine.", link: "https://www.reunion.com/" },
+            { name: "Socialcatfish", description: "People search engine.", link: "https://socialcatfish.com/" },
+            { name: "SearchBug", description: "People and business search engine.", link: "https://www.searchbug.com/" },
+            { name: "Spokeo", description: "People search engine.", link: "https://www.spokeo.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Security and OSINT Tools",
+      children: [
+        {
+          name: "OSINT and Security Tools",
+          children: [
+            { name: "Discoshell", description: "OSINT tool.", link: "https://discoshell.com/" },
+            { name: "DNSservices", description: "DNS lookup tool.", link: "https://dnsservices.com/" },
+            { name: "DuckDuckGo URL scraper", description: "URL scraping tool.", link: "https://duckduckgo.com/" },
+            { name: "FOCA", description: "Metadata extraction tool.", link: "https://www.elevenpaths.com/labstools/foca/index.html" },
+            { name: "Glit", description: "OSINT tool.", link: "https://glit.io/" },
+            { name: "Greynoise", description: "IP address analysis tool.", link: "https://www.greynoise.io/" },
+            { name: "NexFil", description: "OSINT tool.", link: "https://nexfil.io/" },
+            { name: "Seekr", description: "OSINT tool.", link: "https://seekr.com/" },
+            { name: "Sherlock", description: "Username search tool.", link: "https://github.com/sherlock-project/sherlock" },
+            { name: "SherlockEye", description: "OSINT tool.", link: "https://sherlockeye.com/" },
+            { name: "Snoop", description: "OSINT tool.", link: "https://snoop.io/" },
+            { name: "Outwit", description: "Web scraping tool.", link: "https://www.outwit.com/" },
+            { name: "Photon", description: "Web scraping tool.", link: "https://github.com/s0md3v/Photon" },
+            { name: "Pown Recon", description: "Reconnaissance tool.", link: "https://github.com/pownjs/pown-recon" },
+            { name: "pygreynoise", description: "Python library for Greynoise.", link: "https://github.com/GreyNoise-Intelligence/pygreynoise" },
+            { name: "QuickCode", description: "OSINT tool.", link: "https://quickcode.io/" },
+            { name: "SecApps Recon", description: "Reconnaissance tool.", link: "https://secapps.com/recon" },
+            { name: "SerpApi", description: "Search engine results API.", link: "https://serpapi.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "File and Data Search",
+      children: [
+        {
+          name: "File Search Engines",
+          children: [
+            { name: "de digger", description: "File search engine.", link: "https://dedigger.com/" },
+            { name: "File Search Engine", description: "File search engine.", link: "https://www.filesearch.com/" },
+            { name: "FileListing", description: "File search engine.", link: "https://filelisting.com/" },
+            { name: "FilePursuit", description: "File search engine.", link: "https://filepursuit.com/" },
+            { name: "NAPALM FTP Indexer", description: "FTP file search engine.", link: "https://napalmftp.com/" },
+            { name: "SearchFiles.de", description: "File search engine.", link: "https://searchfiles.de/" }
+          ]
+        },
+        {
+          name: "Pastebins",
+          children: [
+            { name: "0bin", description: "Pastebin service.", link: "https://0bin.net/" },
+            { name: "cl1p", description: "Pastebin service.", link: "https://cl1p.net/" },
+            { name: "controlc", description: "Pastebin service.", link: "https://controlc.com/" },
+            { name: "doxbin", description: "Pastebin service.", link: "https://doxbin.com/" },
+            { name: "dpaste2", description: "Pastebin service.", link: "https://dpaste2.com/" },
+            { name: "dpaste", description: "Pastebin service.", link: "https://dpaste.com/" },
+            { name: "GitHub gist", description: "Pastebin service.", link: "https://gist.github.com/" },
+            { name: "hastebin", description: "Pastebin service.", link: "https://hastebin.com/" },
+            { name: "ideone", description: "Pastebin service.", link: "https://ideone.com/" },
+            { name: "ivpaste", description: "Pastebin service.", link: "https://ivpaste.com/" },
+            { name: "jsbin", description: "Pastebin service.", link: "https://jsbin.com/" },
+            { name: "justpaste", description: "Pastebin service.", link: "https://justpaste.it/" },
+            { name: "Katbin", description: "Pastebin service.", link: "https://katb.in/" },
+            { name: "paste.centos", description: "Pastebin service.", link: "https://paste.centos.org/" },
+            { name: "paste.debian", description: "Pastebin service.", link: "https://paste.debian.net/" },
+            { name: "paste.ee", description: "Pastebin service.", link: "https://paste.ee/" },
+            { name: "paste.kde", description: "Pastebin service.", link: "https://paste.kde.org/" },
+            { name: "paste.ubuntu", description: "Pastebin service.", link: "https://paste.ubuntu.com/" },
+            { name: "Rentry", description: "Pastebin service.", link: "https://rentry.co/" }
+          ]
+        },
+        {
+          name: "Code Search",
+          children: [
+            { name: "AnalyzeID", description: "Code search tool.", link: "https://analyzeid.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Maps and Geolocation",
+      children: [
+        {
+          name: "Mapping Tools",
+          children: [
+            { name: "SAS Planet", description: "Mapping tool.", link: "https://www.sasgis.org/sasplaneta/" },
+            { name: "Satellites Pro", description: "Satellite imagery tool.", link: "https://satellites.pro/" },
+            { name: "SatIntel", description: "Satellite intelligence tool.", link: "https://satintel.com/" },
+            { name: "Scribble Maps", description: "Map drawing tool.", link: "https://www.scribblemaps.com/" },
+            { name: "Sentinel Hub", description: "Satellite imagery platform.", link: "https://www.sentinel-hub.com/" },
+            { name: "SOAR", description: "Geospatial analysis tool.", link: "https://soar.earth/" },
+            { name: "StoryMaps", description: "Storytelling with maps.", link: "https://storymaps.arcgis.com/" },
+            { name: "SunCalc", description: "Sun position and sunlight phases tool.", link: "https://www.suncalc.org/" },
+            { name: "Tableau", description: "Data visualization tool.", link: "https://www.tableau.com/" },
+            { name: "USGS (EarthExplorer)", description: "Satellite imagery and geospatial data.", link: "https://earthexplorer.usgs.gov/" },
+            { name: "ViaMichelin", description: "Mapping and route planning tool.", link: "https://www.viamichelin.com/" },
+            { name: "View in Google Earth", description: "Google Earth integration tool.", link: "https://earth.google.com/" },
+            { name: "Wikimapia", description: "Collaborative mapping tool.", link: "https://wikimapia.org/" },
+            { name: "Windy", description: "Weather mapping tool.", link: "https://www.windy.com/" },
+            { name: "WorldMap Harvard", description: "Collaborative mapping platform.", link: "https://worldmap.harvard.edu/" },
+            { name: "Yahoo Maps", description: "Mapping service.", link: "https://maps.yahoo.com/" },
+            { name: "Zeemaps", description: "Map creation tool.", link: "https://www.zeemaps.com/" },
+            { name: "Zoom Earth", description: "Satellite imagery tool.", link: "https://zoom.earth/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Social Media and Networking",
+      children: [
+        {
+          name: "Social Media Platforms",
+          children: [
+            { name: "LinkedIn", description: "Professional networking platform.", link: "https://www.linkedin.com/" },
+            { name: "Xing", description: "Professional networking platform.", link: "https://www.xing.com/" },
+            {
+              name: "Reddit",
+              children: [
+                { name: "Map of Reddit", description: "Visualization of Reddit communities.", link: "https://anvaka.github.io/map-of-reddit/" },
+                { name: "Reddit Investigator", description: "Reddit user analysis tool.", link: "https://redditinvestigator.com/" },
+                { name: "redditcommentsearch.com", description: "Reddit comment search tool.", link: "https://redditcommentsearch.com/" },
+                { name: "dashboard.laterforreddit.com/analysis", description: "Reddit analytics tool.", link: "https://dashboard.laterforreddit.com/analysis" },
+                { name: "Reddit Timer", description: "Reddit post scheduling tool.", link: "https://reddittimer.com/" },
+                { name: "Redditsave.com", description: "Reddit content downloader.", link: "https://redditsave.com/" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Exploits and Vulnerabilities",
+      children: [
+        {
+          name: "Exploit Databases",
+          children: [
+            { name: "Control Validation Compass", description: "Exploit database.", link: "https://cve.mitre.org/" },
+            { name: "Hacking the Cloud", description: "Cloud security vulnerabilities.", link: "https://hackingthe.cloud/" },
+            { name: "ExploitAlert", description: "Exploit database.", link: "https://exploitalert.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Specialized Search Engines",
+      children: [
+        {
+          name: "NFT Search",
+          children: [
+            { name: "Nonfungible.com", description: "NFT market analysis.", link: "https://nonfungible.com/" },
+            { name: "Numbers", description: "NFT search engine.", link: "https://numbers.com/" },
+            { name: "Fingble Nftport", description: "NFT search engine.", link: "https://nftport.xyz/" }
+          ]
+        },
+        {
+          name: "Device Information",
+          children: [
+            { name: "SNDeepInfo", description: "Device information lookup.", link: "https://sndeep.info/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Visualization and Analytics",
+      children: [
+        {
+          name: "Visualization Tools",
+          children: [
+            { name: "Lucidchart", description: "Diagramming tool.", link: "https://www.lucidchart.com/" },
+            { name: "Mapline", description: "Mapping and visualization tool.", link: "https://mapline.com/" },
+            { name: "Nodebox", description: "Data visualization tool.", link: "https://www.nodebox.net/" },
+            { name: "Observable", description: "Data visualization platform.", link: "https://observablehq.com/" },
+            { name: "OpenLayers", description: "Mapping library.", link: "https://openlayers.org/" },
+            { name: "Palladio", description: "Data visualization tool.", link: "https://hdlab.stanford.edu/palladio/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Transportation and Infrastructure",
+      children: [
+        {
+          name: "Transportation Maps",
+          children: [
+            { name: "The Meddin Bike-sharing World Map", description: "Bike-sharing map.", link: "https://www.bikesharingworldmap.com/" },
+            { name: "Rally Maps", description: "Rally route mapping tool.", link: "https://rallymaps.com/" },
+            { name: "SKYDB", description: "Satellite imagery database.", link: "https://skydb.io/" },
+            { name: "Openrailwaymap", description: "Railway mapping tool.", link: "https://www.openrailwaymap.org/" },
+            { name: "Waze", description: "Traffic and navigation app.", link: "https://www.waze.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Communication and Internet",
+      children: [
+        {
+          name: "Cell Tower Data",
+          children: [
+            { name: "Opencellid.org", description: "Cell tower database.", link: "https://opencellid.org/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Text and Content Analysis",
+      children: [
+        {
+          name: "Text Analysis Tools",
+          children: [
+            { name: "Headlines.Sharethrough.com", description: "Headline analysis tool.", link: "https://headlines.sharethrough.com/" },
+            { name: "Wordtune.com", description: "Text summarization tool.", link: "https://www.wordtune.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Universal Search and Reconnaissance",
+      children: [
+        {
+          name: "Universal Search Tools",
+          children: [
+            { name: "SLASH", description: "Universal search tool.", link: "https://slash.com/" },
+            { name: "Cyclect", description: "Search and reconnaissance tool.", link: "https://cyclect.com/" },
+            { name: "ShrewdEye", description: "Search and reconnaissance tool.", link: "https://shrewdeye.app/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Anomalies and Lost Places",
+      children: [
+        {
+          name: "Anomaly Detection",
+          children: [
+            { name: "TorMap", description: "Tor network mapping tool.", link: "https://tormap.net/" },
+            { name: "GeoWiFi", description: "WiFi geolocation tool.", link: "https://geowifi.com/" },
+            { name: "GPSJam", description: "GPS interference detection tool.", link: "https://gpsjam.org/" },
+            { name: "Infrapedia", description: "Internet infrastructure mapping tool.", link: "https://infrapedia.com/" },
+            { name: "OONI Explorer", description: "Internet censorship detection tool.", link: "https://explorer.ooni.org/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "OSINT Toolkits",
+      children: [
+        {
+          name: "OSINT Collections",
+          children: [
+            { name: "OSINT Toolkit", description: "OSINT toolkit.", link: "https://osint-toolkit.com/" },
+            { name: "OSINTTracker", description: "OSINT tracking tool.", link: "https://osinttracker.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Fake Data Generation",
+      children: [
+        {
+          name: "Data Generation",
+          children: [
+            { name: "Generate Data", description: "Fake data generator.", link: "https://generatedata.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Image and Media Analysis",
+      children: [
+        {
+          name: "Image Analysis",
+          children: [
+            { name: "compress-or-die.com/analyze", description: "Image analysis tool.", link: "https://compress-or-die.com/analyze" },
+            { name: "aperisolve.fr", description: "Image analysis tool.", link: "https://aperisolve.fr/" },
+            { name: "Dicom Viewer", description: "Medical image viewer.", link: "https://dicomviewer.com/" },
+            { name: "Caloriemama", description: "Food image analysis tool.", link: "https://caloriemama.ai/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Video and Audio Tools",
+      children: [
+        {
+          name: "YouTube Tools",
+          children: [
+            { name: "YouTube word search", description: "YouTube word search tool.", link: "https://youtube-word-search.com/" },
+            { name: "Speak subtitles to YouTube", description: "YouTube subtitle tool.", link: "https://speak-subtitles-to-youtube.com/" },
+            { name: "Youtube Lookup", description: "YouTube video lookup tool.", link: "https://youtube-lookup.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Proxy and Network Tools",
+      children: [
+        {
+          name: "Proxy Tools",
+          children: [
+            { name: "Web–proxy", description: "Web proxy service.", link: "https://web-proxy.com/" },
+            { name: "Wide-band WebSDR", description: "Web-based software-defined radio.", link: "https://websdr.org/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "File Management",
+      children: [
+        {
+          name: "File Sorting",
+          children: [
+            { name: "Download Sorter", description: "File sorting tool.", link: "https://download-sorter.com/" },
+            { name: "Z History Dump", description: "File history tool.", link: "https://z-history-dump.com/" },
+            { name: "Slideshare Downloader", description: "Slideshare download tool.", link: "https://slideshare-downloader.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Reconnaissance and Investigation",
+      children: [
+        {
+          name: "Recon Tools",
+          children: [
+            { name: "Pyosint", description: "OSINT tool.", link: "https://pyosint.com/" },
+            { name: "Alternate Spelling Finder", description: "Spelling variation tool.", link: "https://alternate-spelling-finder.com/" },
+            { name: "Investigator Recon Tool", description: "Reconnaissance tool.", link: "https://investigator-recon-tool.com/" },
+            { name: "AORT", description: "OSINT reconnaissance tool.", link: "https://aort.com/" },
+            { name: "Site Dorks", description: "Google Dorks tool.", link: "https://site-dorks.com/" },
+            { name: "Google (universal) Dork Builder", description: "Google Dorks builder.", link: "https://google-dork-builder.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Twitter Analysis",
+      children: [
+        {
+          name: "Twitter Tools",
+          children: [
+            { name: "The Twitter Stream Grab", description: "Twitter stream analysis tool.", link: "https://twitter-stream-grab.com/" },
+            { name: "Twitter 3D", description: "Twitter visualization tool.", link: "https://twitter-3d.com/" },
+            { name: "ExportData.io", description: "Twitter data export tool.", link: "https://exportdata.io/" },
+            { name: "Eight Dollars", description: "Twitter analytics tool.", link: "https://eightdollars.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "People Search",
+      children: [
+        {
+          name: "People Search Tools",
+          children: [
+            { name: "BehindTheNames", description: "Name etymology tool.", link: "https://behindthenames.com/" },
+            { name: "My CSE for search in 48 pastebin sites", description: "Pastebin search tool.", link: "https://my-cse.com/" },
+            { name: "Psbdmp.ws", description: "Pastebin search tool.", link: "https://psbdmp.ws/" },
+            { name: "Cybernews RockYour2021", description: "People search tool.", link: "https://cybernews.com/" },
+            { name: "GoFindWho People Search", description: "People search tool.", link: "https://gofindwho.com/" },
+            { name: "That’s them people search", description: "People search tool.", link: "https://thatsthem.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "System Administration",
+      children: [
+        {
+          name: "System Tools",
+          children: [
+            { name: "Crontab guru", description: "Cron job scheduling tool.", link: "https://crontab.guru/" },
+            { name: "Chmod calculator", description: "File permission calculator.", link: "https://chmod-calculator.com/" },
+            { name: "Ray So", description: "Code visualization tool.", link: "https://ray.so/" },
+            { name: "Windows Event Collection", description: "Windows event log tool.", link: "https://windows-event-collection.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Miscellaneous Tools",
+      children: [
+        {
+          name: "Miscellaneous",
+          children: [
+            { name: "Hack This Page", description: "Web page editing tool.", link: "https://hackthispage.com/" },
+            { name: "Soundraw", description: "AI music generation tool.", link: "https://soundraw.io/" },
+            { name: "Screenshot - Full Page Screen Capture", description: "Screen capture tool.", link: "https://screenshot-full-page.com/" },
+            { name: "Chepy", description: "Python command-line tool.", link: "https://chepy.io/" },
+            { name: "Typeit", description: "Online keyboard tool.", link: "https://typeit.org/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Weather and Natural Phenomena",
+      children: [
+        {
+          name: "Weather Maps",
+          children: [
+            { name: "Ventusky.com", description: "Weather mapping tool.", link: "https://www.ventusky.com/" },
+            { name: "Wunderground", description: "Weather forecasting tool.", link: "https://www.wunderground.com/" },
+            { name: "Rain Alarm", description: "Rain alert tool.", link: "https://www.rain-alarm.com/" },
+            { name: "Cyclocane", description: "Hurricane tracking tool.", link: "https://www.cyclocane.com/" },
+            { name: "MeteoBlue", description: "Weather forecasting tool.", link: "https://www.meteoblue.com/" },
+            { name: "Zoom.earth", description: "Satellite imagery tool.", link: "https://zoom.earth/" },
+            { name: "NGDC Bathymetry map", description: "Ocean depth mapping tool.", link: "https://ngdc-bathymetry-map.com/" },
+            { name: "Soar.earth", description: "Satellite imagery tool.", link: "https://soar.earth/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Email Finder Tools",
+      children: [
+        {
+          name: "Email Finder Tools",
+          children: [
+            { name: "Hunter.io", description: "Email finder tool.", link: "https://hunter.io/" },
+            { name: "Skymem", description: "Email finder tool.", link: "https://www.skymem.info/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Document Download Tools",
+      children: [
+        {
+          name: "Document Download Tools",
+          children: [
+            { name: "Scribd VPDFS", description: "Scribd document downloader.", link: "https://scribd-vpdfs.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Username Checkers",
+      children: [
+        {
+          name: "Username Checkers",
+          children: [
+            { name: "Namechk", description: "Username availability checker.", link: "https://namechk.com/" },
+            { name: "Usersearch", description: "Username search tool.", link: "https://usersearch.org/" },
+            { name: "Checkusernames", description: "Username availability checker.", link: "https://checkusernames.com/" },
+            { name: "Instant Username", description: "Username availability checker.", link: "https://instantusername.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "People Search Tools",
+      children: [
+        {
+          name: "People Search Tools",
+          children: [
+            { name: "Zabasearch", description: "People search tool.", link: "https://www.zabasearch.com/" },
+            { name: "Com.lullar", description: "People search tool.", link: "https://com.lullar.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Breach and Data Leak Tools",
+      children: [
+        {
+          name: "Breach and Data Leak Tools",
+          children: [
+            { name: "Breach Hunters", description: "Data breach detection tool.", link: "https://breachhunters.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Web Proxies and Downloaders",
+      children: [
+        {
+          name: "Web Proxies and Downloaders",
+          children: [
+            { name: "Web–proxy", description: "Web proxy service.", link: "https://web-proxy.com/" },
+            { name: "HTTrack", description: "Website downloader.", link: "https://www.httrack.com/" },
+            { name: "Offliberty", description: "Online content downloader.", link: "https://offliberty.com/" },
+            { name: "Resolver", description: "Web data resolver.", link: "https://resolver.com/" },
+            { name: "SiteSucker", description: "Website downloader.", link: "https://sitesucker.us/" },
+            { name: "WebAssistant", description: "Web content management tool.", link: "https://webassistant.com/" },
+            { name: "Website Ripper Copier", description: "Website downloader.", link: "https://website-ripper-copier.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Infographics and Data Visualization",
+      children: [
+        {
+          name: "Infographics and Data Visualization",
+          children: [
+            { name: "Aeon", description: "Infographics tool.", link: "https://aeon.co/" },
+            { name: "Arbor.js", description: "Graph visualization library.", link: "https://arborjs.org/" },
+            { name: "Beaker", description: "Data analysis tool.", link: "https://beaker.com/" },
+            { name: "Befunky", description: "Graphic design tool.", link: "https://www.befunky.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Social Media Analytics",
+      children: [
+        {
+          name: "Social Media Analytics",
+          children: [
+            { name: "Buzzsumo", description: "Content insights tool.", link: "https://buzzsumo.com/" },
+            { name: "Castrick", description: "Social media account finder.", link: "https://castrick.com/" },
+            { name: "Epieos", description: "Social media account search tool.", link: "https://epieos.com/" },
+            { name: "Geocreepy", description: "Geolocation-based social media search.", link: "https://geocreepy.com/" },
+            { name: "Hootsuite", description: "Social media management tool.", link: "https://hootsuite.com/" },
+            { name: "IDCrawl", description: "Social media search tool.", link: "https://idcrawl.com/" },
+            { name: "Klear", description: "Influencer marketing platform.", link: "https://klear.com/" },
+            { name: "Kribrum", description: "Social media analytics tool.", link: "https://kribrum.com/" },
+            { name: "Mail.Ru Social Network Search", description: "Social network search tool.", link: "https://mail.ru/" },
+            { name: "MustBePresent", description: "Social media account discovery tool.", link: "https://mustbepresent.com/" },
+            { name: "Netvibes", description: "Personalized dashboard tool.", link: "https://www.netvibes.com/" },
+            { name: "Oblivion", description: "Privacy-focused browser extension.", link: "https://oblivion.com/" },
+            { name: "OpinionCrawl", description: "Sentiment analysis tool.", link: "https://opinioncrawl.com/" },
+            { name: "Predicta Search", description: "Social media account search tool.", link: "https://predicta.com/" },
+            { name: "Profil3r", description: "OSINT tool for social media profiles.", link: "https://profil3r.com/" },
+            { name: "Rival IQ", description: "Social media analytics tool.", link: "https://www.rivaliq.com/" },
+            { name: "Social DownORNot", description: "Social media account checker.", link: "https://socialdownornot.com/" },
+            { name: "Social Searcher", description: "Social media search engine.", link: "https://www.social-searcher.com/" },
+            { name: "SocialBakers", description: "Social media analytics tool.", link: "https://www.socialbakers.com/" },
+            { name: "SocialBlade", description: "Social media statistics tool.", link: "https://socialblade.com/" },
+            { name: "Tagboard", description: "Social media aggregation tool.", link: "https://tagboard.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Text and Image Analysis",
+      children: [
+        {
+          name: "Text and Image Analysis",
+          children: [
+            { name: "Headlines.Sharethrough.com", description: "Headline analysis tool.", link: "https://headlines.sharethrough.com/" },
+            { name: "Wordtune.com", description: "Text summarization tool.", link: "https://www.wordtune.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "AI and Machine Learning Tools",
+      children: [
+        {
+          name: "AI and Machine Learning Tools",
+          children: [
+            { name: "Text2img", description: "Text-to-image AI generator.", link: "https://text2img.com/" },
+            { name: "Face Anonymizer", description: "AI face generation tool.", link: "https://face-anonymizer.com/" },
+            { name: "AI Video Generator", description: "AI video creation tool.", link: "https://ai-video-generator.com/" },
+            { name: "Movio.la", description: "AI video creation tool.", link: "https://movio.la/" },
+            { name: "AI Face Maker", description: "AI face generation tool.", link: "https://ai-face-maker.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Multi-Login Browser Extensions",
+      children: [
+        {
+          name: "Multi-Login Browser Extensions",
+          children: [
+            { name: "SessionBox", description: "Multi-login browser extension.", link: "https://sessionbox.io/" },
+            { name: "MultiLogin", description: "Multi-login browser extension.", link: "https://multilogin.com/" },
+            { name: "FreshStart", description: "Multi-login browser extension.", link: "https://freshstart.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Fake Data Generation",
+      children: [
+        {
+          name: "Fake Data Generation",
+          children: [
+            { name: "BoredHumans", description: "AI-generated fake data.", link: "https://boredhumans.com/" },
+            { name: "Deepfakesweb", description: "Deepfake video creation tool.", link: "https://deepfakesweb.com/" },
+            { name: "Deep Face Live", description: "Real-time face swap tool.", link: "https://deepfacelive.com/" },
+            { name: "Fakeinfo", description: "Fake screenshot generator.", link: "https://fakeinfo.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Web Scraping and Mapping Tools",
+      children: [
+        {
+          name: "Web Scraping and Mapping Tools",
+          children: [
+            { name: "Lookyloo", description: "Web scraping tool.", link: "https://lookyloo.com/" },
+            { name: "Core SERP Vitals", description: "Search engine results analysis tool.", link: "https://core-serp-vitals.com/" },
+            { name: "BGPView", description: "Internet structure analysis tool.", link: "https://bgpview.io/" },
+            { name: "CloudHQ", description: "Gmail productivity extensions.", link: "https://cloudhq.com/" },
+            { name: "Magical Text Expander", description: "Text shortcut tool.", link: "https://magicaltextexpander.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "File and Data Search Engines",
+      children: [
+        {
+          name: "File and Data Search Engines",
+          children: [
+            { name: "Napalm FTP Indexer", description: "File search engine.", link: "https://napalmftp.com/" },
+            { name: "Filesearching", description: "FTP file search engine.", link: "https://filesearching.com/" },
+            { name: "Snowfl.com", description: "Torrent aggregator.", link: "https://snowfl.com/" },
+            { name: "Torrents.me", description: "Torrent aggregator.", link: "https://torrents.me/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Device Information and NFT Search",
+      children: [
+        {
+          name: "Device Information and NFT Search",
+          children: [
+            { name: "SNDeepInfo", description: "Device information lookup.", link: "https://sndeep.info/" },
+            { name: "Nonfungible.com", description: "NFT market analysis.", link: "https://nonfungible.com/" },
+            { name: "Numbers", description: "NFT search engine.", link: "https://numbers.com/" },
+            { name: "Fingble Nftport", description: "NFT search engine.", link: "https://nftport.xyz/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Cryptocurrency and Blockchain Tools",
+      children: [
+        {
+          name: "Cryptocurrency and Blockchain Tools",
+          children: [
+            { name: "Wallet explorer", description: "Bitcoin wallet transaction history.", link: "https://walletexplorer.com/" },
+            { name: "Blockpath.com", description: "Bitcoin wallet transaction graph.", link: "https://blockpath.com/" },
+            { name: "Cryptocurrency alerting", description: "Cryptocurrency tracking tool.", link: "https://cryptocurrencyalerting.com/" },
+            { name: "Learnmebitcoin.com", description: "Bitcoin transaction analysis tool.", link: "https://learnmebitcoin.com/" },
+            { name: "Coinwink.com", description: "Cryptocurrency rate alerts.", link: "https://coinwink.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Messengers and Communication Tools",
+      children: [
+        {
+          name: "Messengers and Communication Tools",
+          children: [
+            { name: "Telegram", description: "Telegago, Commentgram CSE, Telegram Message Analyzer.", link: "https://telegram.org/" },
+            { name: "WhatsApp", description: "WhatsApp analysis tools.", link: "https://www.whatsapp.com/" },
+            { name: "Kik", description: "Messaging app.", link: "https://www.kik.com/" },
+            { name: "Slack", description: "Team communication tool.", link: "https://slack.com/" },
+            { name: "Skype", description: "Communication tool.", link: "https://www.skype.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Miscellaneous Tools",
+      children: [
+        {
+          name: "Miscellaneous Tools",
+          children: [
+            { name: "Hack This Page", description: "Web page editing tool.", link: "https://hackthispage.com/" },
+            { name: "Soundraw", description: "AI music generation tool.", link: "https://soundraw.io/" },
+            { name: "Screenshot - Full Page Screen Capture", description: "Screen capture tool.", link: "https://screenshot-full-page.com/" },
+            { name: "Chepy", description: "Python command-line tool.", link: "https://chepy.io/" },
+            { name: "Typeit", description: "Online keyboard tool.", link: "https://typeit.org/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "System Administration and Utilities",
+      children: [
+        {
+          name: "System Administration and Utilities",
+          children: [
+            { name: "Crontab guru", description: "Cron job scheduling tool.", link: "https://crontab.guru/" },
+            { name: "Chmod calculator", description: "File permission calculator.", link: "https://chmod-calculator.com/" },
+            { name: "Ray So", description: "Code visualization tool.", link: "https://ray.so/" },
+            { name: "Windows Event Collection", description: "Windows event log tool.", link: "https://windows-event-collection.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Twitter Analysis Tools",
+      children: [
+        {
+          name: "Twitter Analysis Tools",
+          children: [
+            { name: "Twitter Control Panel", description: "Twitter feed control tool.", link: "https://twitter-control-panel.com/" },
+            { name: "Wayback Tweets", description: "Archived tweet viewer.", link: "https://wayback-tweets.com/" },
+            { name: "Twemex", description: "Twitter sidebar tool.", link: "https://twemex.com/" },
+            { name: "Vicintias.io", description: "Twitter follower export tool.", link: "https://vicintias.io/" },
+            { name: "Twitter Shadow Ban Checker", description: "Shadow ban detection tool.", link: "https://twitter-shadow-ban-checker.com/" },
+            { name: "Twitter Mentions Map", description: "Twitter mention mapping tool.", link: "https://twitter-mentions-map.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Universal Search and Reconnaissance",
+      children: [
+        {
+          name: "Universal Search and Reconnaissance",
+          children: [
+            { name: "SLASH", description: "Universal search tool.", link: "https://slash.com/" },
+            { name: "Cyclect", description: "Search and reconnaissance tool.", link: "https://cyclect.com/" },
+            { name: "ShrewdEye", description: "Search and reconnaissance tool.", link: "https://shrewdeye.app/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Code and Source Code Search",
+      children: [
+        {
+          name: "Code and Source Code Search",
+          children: [
+            { name: "Github Artifact Exporter", description: "GitHub issue export tool.", link: "https://github-artifact-exporter.com/" },
+            { name: "PublicWWW", description: "Source code search engine.", link: "https://publicwww.com/" },
+            { name: "SayHello", description: "AI search engine for developers.", link: "https://sayhello.com/" },
+            { name: "SourceGraph", description: "Universal code search engine.", link: "https://sourcegraph.com/" },
+            { name: "NerdyData", description: "HTML/CSS/code search engine.", link: "https://nerdydata.com/" },
+            { name: "YouCode", description: "Privacy-focused code search engine.", link: "https://youcode.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Search Engines and Specialized Tools",
+      children: [
+        {
+          name: "Search Engines and Specialized Tools",
+          children: [
+            { name: "Dorks Hunter", description: "Google Dorks analysis tool.", link: "https://dorks-hunter.com/" },
+            { name: "xnLinkFinder", description: "Endpoint discovery tool.", link: "https://xnlinkfinder.com/" },
+            { name: "DATA Surgeon", description: "Sensitive data extraction tool.", link: "https://data-surgeon.com/" },
+            { name: "JSLEAK", description: "Source code secret detection tool.", link: "https://jsleak.com/" },
+            { name: "FUZZULI", description: "URL fuzzing tool.", link: "https://fuzzuli.com/" },
+            { name: "DorkGenius", description: "AI-powered dork generator.", link: "https://dorkgenius.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Backlink Analysis",
+      children: [
+        {
+          name: "Backlink Analysis",
+          children: [
+            { name: "SEO Spyglass Backlink Checker", description: "Backlink analysis tool.", link: "https://seo-spyglass.com/" },
+            { name: "Neilpatel Backlinks Analyzer", description: "Backlink analysis tool.", link: "https://neilpatel.com/backlinks-analyzer/" }
+          ]
+        }
+      ]
+    },
+    {
+      name: "Privacy-Focused Search Engines",
+      children: [
+        {
+          name: "Privacy-Focused Search Engines",
+          children: [
+            { name: "search3", description: "Privacy search engine.", link: "https://search3.com/" },
+            { name: "DensePhrase", description: "Phrase-level search engine.", link: "https://densephrase.com/" },
+            { name: "Metaphor Systems", description: "Link prediction search engine.", link: "https://metaphor.systems/" }
+          ]
+        }
+      ]
+    }
+  ]
+};
